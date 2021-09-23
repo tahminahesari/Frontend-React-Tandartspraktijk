@@ -1,6 +1,7 @@
 import React from 'react';
 import PageHeader from '../components/PageHeader';
 import afspraak from '../assets/dentist.svg';
+import {Link} from "react-router-dom";
 
 function AppointmentsPage() {
   return (
@@ -20,7 +21,7 @@ function AppointmentsPage() {
          tempore unde, voluptas. Ab, deserunt est fugiat fugit ipsam saepe sint ullam?
        </p>
       <p>
-        Leer <a href="">hier</a> meer over gaatjes
+        Leer <Link to="/gaatjes">hier</Link> meer over gaatjes
       </p>
     </div>
   );
